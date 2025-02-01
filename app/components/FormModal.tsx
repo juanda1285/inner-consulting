@@ -18,7 +18,7 @@ export default function FormModal() {
     const openModal = () => setIsOpen(true);
     const closeModal = () => {
         setIsOpen(false);
-        resetForm();
+       // resetForm(); 
     };
 
     //Validación para el siguiente Step del form
